@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "browser-sync start --server --files ./src/ styles.css index.html",
     "lint": "eslint ./**/*.js",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write  --single-quote ."
   },
   "keywords": [],
   "author": "",
