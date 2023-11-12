@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "browser-sync start --server --files ./src/ styles.css index.html",
     "lint": "eslint ./**/*.js",
-    "prettier": "prettier --write  --single-quote ."
+    "prettier": "prettier --write  --single-quote .",
+    "build": "npm run lint && npm run prettier && mkdir build && cp -R src/* build/ && cp index.html styles.css build/"
   },
   "keywords": [],
   "author": "",
